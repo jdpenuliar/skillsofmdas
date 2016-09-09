@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <Button
+        android:id="@+id/mainActivity_btnLessons"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Lessons" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/mainActivity_btnTests"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainActivity_btnLessons"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Tests"
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/mainActivity_btnScore"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainActivity_btnTests"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Score" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/mainActivity_btnTeacher"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mainActivity_btnScore"
+        android:layout_alignRight="@+id/mainActivity_btnScore"
+        android:layout_below="@+id/mainActivity_btnScore"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Teacher" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/mainActivity_btnAbout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mainActivity_btnTeacher"
+        android:layout_below="@+id/mainActivity_btnTeacher"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="About"
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/mainActivity_btnExit"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mainActivity_btnTeacher"
+        android:layout_below="@+id/mainActivity_btnAbout"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Exit" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

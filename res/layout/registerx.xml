@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="Username" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/username"
+        android:text="Password" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/TextView01"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/password"
+        android:text="First Name" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/registerxETFirstName"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tvFirstName"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    
+    <TextView
+        android:id="@+id/tvMiddleName"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/registerxETFirstName" 
+        android:text="Middle Name" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/registerxETMiddleName"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tvMiddleName"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    
+    <TextView
+        android:id="@+id/tvlastname"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/registerxETMiddleName"
+        android:text="Last Name"
+        android:textColor="#000000"
+        android:textSize="30sp"  />
+
+    <EditText
+        android:id="@+id/registerxETLastName"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tvlastname"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    
+    <TextView
+        android:id="@+id/tvemailaddress"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/registerxETLastName"
+        android:text="Email Address"
+        android:textColor="#000000"
+        android:textSize="30sp"  />
+
+    <EditText
+        android:id="@+id/registerxETEmailAddress"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tvemailaddress"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/password"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:textSize="50sp"
+        android:text="Register" />
+
+</RelativeLayout>

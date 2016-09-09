@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <TextView
+        android:id="@+id/tvLessonsQuestions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="3.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="5.0"
+        android:text="Choice 4"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvTopic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="3.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="5.0"
+        android:text="Choice 4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Next" 
+        android:textSize="50sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnPrevious"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnNext"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Previous" 
+        android:textSize="50sp"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgChoices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNext"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="50"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rbChoice1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="5.0"
+            android:text="Choice 4"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rbChoice2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rbChoice1"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="5.0"
+            android:text="Choice 4"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rbChoice3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rbChoice2"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="5.0"
+            android:text="Choice 4"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rbChoice4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rbChoice3"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="5.0"
+            android:text="Choice 4"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ivLessonsTests"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/playsample_rgChoices"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp" />
+
+</RelativeLayout>

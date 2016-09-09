@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <Button
+        android:id="@+id/optionsActivity_btnZero"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/optionsActivity_btnZero"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Button" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/optionsActivity_btnOne"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionsActivity_btnZero"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Very Hard" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/optionsActivity_btnTwo"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionsActivity_btnOne"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Button" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/optionsActivity_btnThree"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionsActivity_btnTwo"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Button" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/optionsActivity_btnFour"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionsActivity_btnThree"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textColor="#ffff00"
+        android:text="Button" 
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>
