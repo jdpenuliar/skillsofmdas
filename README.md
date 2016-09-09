@@ -1,1 +1,1 @@
-A simple android game that helps elementary students practice their MDAS (Multiplication, Addition, Subtraction) principles. It stores the score of the student in a mysql database that can be accessed through the android phone or php scripts.
+A simple android game that helps elementary students practice their MDAS (Multiplication, Addition, Subtraction) principles. It stores the score of the student in a mysql database that can be accessed through the android phone or php scripts. Made by JD Penuliar
